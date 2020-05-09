@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "sourceMap": true,
+    "allowJs": false,
+    "paths": {
+      "@config*": [
+        "config*"
+      ],
+      "@controllers*": [
+        "controllers*"
+      ],
+      "@middlewares*": [
+        "middlewares*"
+      ],
+      "@models*": [
+        "models*"
+      ],
+      "@routes*": [
+        "routes*"
+      ],
+      "@interfaces*": [
+        "interfaces*"
+      ],
+      "@utils*": [
+        "utils*"
+      ],
+      "@services*": [
+        "services*"
+      ],
+      "@": [
+        "./../*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "firebase-config.json"
+  ]
+}
